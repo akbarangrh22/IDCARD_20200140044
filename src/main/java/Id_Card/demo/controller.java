@@ -19,7 +19,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Controller
 public class controller {
     @RequestMapping("/login")
-    public String next(@RequestParam (value="inputuser") String getUsernama,
+    public String login(@RequestParam (value="inputuser") String getUsernama,
                            @RequestParam (value="inputdate") String getDate,
                            @RequestParam (value="inputreligion") String getReligion,
                            @RequestParam (value="inputjob") String  getJob,
