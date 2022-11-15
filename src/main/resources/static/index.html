@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+         <title>InputKtp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        fieldset{
+            border: 1px solid #000000;
+            display: inline-block;
+            font-size: 14px;
+            padding: 1em 2em;
+            box-shadow: 3px  3px 4px;
+            text-align: center;
+        }
+    </style>
+    <body>
+        <fieldset>
+        <div>InputKtp</div>
+        <hr/>
+        <form method="post" enctype="multipart/form-data" action ="/login">
+            Nama  : <input  type="text" name="inputuser"/><br>
+            <br>
+            Date : <input type="date" name="inputdate"/><br>
+            <br>
+            Religion : <input type="religion"  name="inputreligion"/><br>
+            <br>
+            Job : <input type="job" name="inputjob"/><br>
+            <br>
+            Picture : <input type="file" name="inputfoto" accept="image/png, image/jpeg" required=""/>
+            <br>
+            <br>
+            <input type="submit" value="Enter"/>
+        </form>
+        </fieldset>
+    </body>
+</html>
